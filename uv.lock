@@ -473,7 +473,7 @@ tinker = [
     { name = "torch", marker = "python_full_version >= '3.11'", specifier = ">=2.8.0" },
     { name = "torchvision", marker = "python_full_version >= '3.11'", specifier = ">=0.23.0" },
     { name = "transformers", marker = "python_full_version >= '3.11'", specifier = ">=4.55.0,!=4.57.2" },
-    { name = "vllm", marker = "python_full_version >= '3.11'", specifier = ">=0.10.2,!=0.11.1,!=0.11.2" },
+    { name = "vllm", marker = "python_full_version >= '3.11'", specifier = ">=0.10.2,!=0.11.1,!=0.11.2,!=0.12.0" },
     { name = "wandb", marker = "python_full_version >= '3.11'" },
 ]
 torch-cpu = [
@@ -510,7 +510,7 @@ torch-gpu-stable = [
     { name = "torchvision", specifier = ">=0.23.0" },
     { name = "transformers", specifier = ">=4.55.0,!=4.57.2" },
     { name = "verl", specifier = ">=0.6.0" },
-    { name = "vllm", specifier = ">=0.10.2,!=0.11.1,!=0.11.2" },
+    { name = "vllm", specifier = ">=0.10.2,!=0.11.1,!=0.11.2,!=0.12.0" },
 ]
 torch-legacy = [
     { name = "agentops", specifier = "<=0.4.18" },
@@ -530,7 +530,7 @@ torch-stable = [
     { name = "torch", specifier = ">=2.8.0" },
     { name = "torchvision", specifier = ">=0.23.0" },
     { name = "transformers", specifier = ">=4.55.0,!=4.57.2" },
-    { name = "vllm", specifier = ">=0.10.2,!=0.11.1,!=0.11.2" },
+    { name = "vllm", specifier = ">=0.10.2,!=0.11.1,!=0.11.2,!=0.12.0" },
 ]
 trl = [
     { name = "agentops", specifier = ">=0.4.21" },
@@ -548,7 +548,7 @@ trl = [
     { name = "unsloth", specifier = ">=2025.10.1,!=2025.10.2,!=2025.10.3,!=2025.10.4,!=2025.10.5,!=2025.10.6,!=2025.10.7,!=2025.10.8" },
     { name = "unsloth-zoo", specifier = ">=2025.10.1,!=2025.10.2,!=2025.10.3,!=2025.10.4,!=2025.10.5,!=2025.10.6,!=2025.10.7,!=2025.10.8" },
     { name = "vllm" },
-    { name = "vllm", specifier = ">=0.10.2,!=0.11.1,!=0.11.2" },
+    { name = "vllm", specifier = ">=0.10.2,!=0.11.1,!=0.11.2,!=0.12.0" },
 ]
 
 [[package]]
