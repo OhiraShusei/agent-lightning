@@ -143,7 +143,7 @@ async def run_iteration(
         EnqueueRolloutRequest(
             resources_id=resources_id,
             input=t["input"],
-            config={},
+            config={"environment_variables": {"AGL_MODEL_NAME": MOCKAI_MODEL}},
         )
         for t in tasks
     ]
