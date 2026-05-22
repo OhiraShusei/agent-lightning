@@ -146,6 +146,7 @@ def build_config(
         if ci_fast:
             overrides["trainer"]["total_training_steps"] = 1
             overrides["trainer"]["test_freq"] = 1
+            overrides["trainer"]["n_gpus_per_node"] = 1
             overrides["actor_rollout_ref"]["rollout"]["gpu_memory_utilization"] = 0.6
 
     override_conf = OmegaConf.create(overrides)
